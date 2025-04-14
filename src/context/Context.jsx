@@ -11,6 +11,7 @@ const ContextProvider = (props) => {
     const [showResults,setShowResults]=useState(false);
     const [loading,setLoading]=useState(false);
     const [resultData,setResultData]=useState('');
+    const [prevPrompts,setPreviousPrompt] = useState('');
 
 
     function formatMarkdown(input) {
@@ -85,6 +86,8 @@ const ContextProvider = (props) => {
         showResults,
         setShowResults,
         loading,
+        prevPrompts,
+        setPreviousPrompt,
         setLoading,
         resultData,
         setResultData,
