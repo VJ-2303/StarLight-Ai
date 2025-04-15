@@ -12,7 +12,7 @@ background: #1b1e22;
 }
 .main .nav{
 display: flex;
-justify-content: space-between; /* Ensure space between elements */
+justify-content: space-between; 
 align-items: center;
 font-size: 2.5em;
 border: 0;
@@ -20,14 +20,14 @@ padding: 20px;
 width: 100%;
 color: #1fc7ff;
 background: transparent;
-height: 80px; /* Fixed height */
-box-sizing: border-box; /* Include padding in height */
-min-height: 80px; /* Prevent shrinking */
-max-height: 80px; /* Prevent expanding */
-overflow: hidden; /* Prevent content overflow */
-position: sticky; /* Keep navbar fixed at the top */
-top: 0; /* Stick to the top */
-z-index: 10; /* Ensure it stays above other content */
+height: 80px; 
+box-sizing: border-box; 
+min-height: 80px; 
+max-height: 80px;
+overflow: hidden;
+position: sticky; 
+top: 0; 
+z-index: 10; 
     
 }
 .main .nav p{
@@ -35,9 +35,9 @@ z-index: 10; /* Ensure it stays above other content */
 }
 .main .nav img{
     width: 60px;
-    height: 60px; /* Ensure consistent height for images */
+    height: 60px; 
     border-radius: 50%;
-    object-fit: cover; /* Prevent image distortion */
+    object-fit: cover; 
     margin-left: auto;
 }
 .main-container{
@@ -60,11 +60,11 @@ z-index: 10; /* Ensure it stays above other content */
     -webkit-text-fill-color: transparent;
 }
 .main-bottom{
-    position: fixed; /* Fix it to the bottom of the viewport */
+    position: fixed; 
     bottom: 0;
     width: 100%;
     max-width: 900px;
-    padding: 10px 20px; /* Optional: Add a background color */
+    padding: 10px 20px; 
     z-index: 10;
     background: transparent;
 
@@ -130,10 +130,10 @@ center{
     padding-left: 4px;
     padding-right: 2px;
     padding-right: 10px;
-    overflow-y: auto; /* Add scrolling for large content */
-    min-height: 200px; /* Set a minimum height to prevent shrinking */
-    margin-top: 20px; /* Add spacing to avoid overlapping with the navbar */
-    width: 100%; /* Ensure it takes up the full width */
+    overflow-y: auto;
+    min-height: 200px; 
+    margin-top: 20px;
+    width: 100%; 
     position: relative; 
     min-width: 100%;
     background: transparent;
@@ -152,14 +152,14 @@ center{
 .result img{
     width:7%;
     border-radius: 50%;
-    background: transparent;/* Add rotation animation */
+    background: transparent;
 }
 .result-data{
     display: flex;
     align-items: start;
     gap: 10px;
-    min-height: 200px; /* Set a minimum height to prevent shrinking *//* Optional: Set a maximum height to prevent excessive growth */
-    overflow-y: auto; /* Add scrolling if content exceeds the max height */
+    min-height: 200px; 
+    overflow-y: auto;
     width: 100%;
     background: transparent;
 }
@@ -177,8 +177,8 @@ center{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    justify-content: center; /* Center the loader vertically */
-    align-items: center; /* Center the loader horizontally */
+    justify-content: center; 
+    align-items: center; 
     min-height: 200px;
 }
 .loader hr{
@@ -230,7 +230,7 @@ center{
 }
 .spin{
     animation: spin 8s linear infinite;
-    background: transparent; /* Add rotation animation */
+    background: transparent; 
 }
 @keyframes spin {
     from {

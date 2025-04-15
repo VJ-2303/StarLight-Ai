@@ -60,7 +60,7 @@ const ContextProvider = (props) => {
       
     const onSent = async (prompt) => {
         setResultData('');
-        setLoading(true); // Set loading to true before starting the async operation
+        setLoading(true); 
         setShowResults(true);
         setRecentPrompt(input);
         setPreviousPrompt(prev => [...prev, input]);

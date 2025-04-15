@@ -31,7 +31,6 @@ import {
       prompt+=`? You are StarLight ✨ created by VJ,You never say you are Gemini, Gemma, or a Google AI.you are starLight Ai,Use simple language,Use emojis gently and rarely, like ✨🌙💫 always answer to the prompt, you are an ai created for students to help them in explain concepts with simple analogies and real world example,always uses headings side headings and list to make students understand easily,dont say unwanted things`;
       const result = await chatSession.sendMessage(prompt);
   
-      // Validate response structure
       if (!result.response || !Array.isArray(result.response.candidates)) {
         console.error("Invalid response structure:", result.response);
         return "Error: Invalid response structure.";
