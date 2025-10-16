@@ -6,11 +6,11 @@ import {
   import fs from "node:fs";
   import mime from "mime-types";
   
-  const apiKey = "AIzaSyDaUQNI8VkN8lytfjM41nxIkqnNkgp4H1M";
+  const apiKey = "AIzaSyCQHnXli1QPGeud0vaFYiNPQkg4_Q-otRw";
   const genAI = new GoogleGenerativeAI(apiKey);
   
   const model = genAI.getGenerativeModel({
-    model: "gemini-1.5-flash",
+    model: "gemini-2.0-flash",
   });
   
   const generationConfig = {
